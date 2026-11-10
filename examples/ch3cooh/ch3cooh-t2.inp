@@ -1,0 +1,11 @@
+ORCA_OUT: ch3cooh-scan-ccoh-opt-r2scan-d4-def2-tzvpp.out
+FREQ_OUT: ch3cooh-hcco-opt-freq-r2scan-d4-def2-tzvpp.out
+HESS_FILE: ch3cooh-ocoh-opt-freq-r2scan-d4-def2-tzvpp.hess
+XYZ_FILE: ch3cooh-scan-ccoh-opt-r2scan-d4-def2-tzvpp.allxyz
+AXIS: 2,6
+TOP: 7
+SIGMA: 1
+UNIT: hartree
+T_SINGLE: 298.15
+T_RANGE: 300, 2000, 50
+CONFORMER: anti

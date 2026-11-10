@@ -1,0 +1,12 @@
+ORCA_OUT: ch3oh-scan-opt-r2scan-d4-def2-tzvpp.out
+FREQ_OUT: ch3oh-opt-freq-r2scan-d4-def2-tzvpp.out
+HESS_FILE: ch3oh-opt-freq-r2scan-d4-def2-tzvpp.hess
+XYZ_FILE: ch3oh-scan-opt-r2scan-d4-def2-tzvpp.allxyz
+AXIS: 1,2
+TOP: 0
+DIHEDRAL: 3,2,1,0
+SIGMA: 3
+UNIT: hartree
+T_SINGLE: 298.15
+T_RANGE: 300, 2000, 50
+CONFORMER: anti

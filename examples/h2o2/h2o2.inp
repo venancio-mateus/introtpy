@@ -1,0 +1,10 @@
+ORCA_OUT: h2o2-scan-opt-r2scan-d4-def2-tzvpp.out
+FREQ_OUT: h2o2-opt-freq-r2scan-d4-def2-tzvpp.out
+HESS_FILE: h2o2-opt-freq-r2scan-d4-def2-tzvpp.hess
+XYZ_FILE: h2o2-scan-opt-r2scan-d4-def2-tzvpp.allxyz
+AXIS: 1,2
+TOP: 0
+DIHEDRAL: 0,1,2,3
+UNIT: hartree
+T_SINGLE: 298.15
+T_RANGE: 300, 2000, 50

@@ -1,0 +1,647 @@
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 1
+  H      -1.425864      0.298283      0.569974
+  S      -1.061295      1.410174     -0.082149
+  C       0.733996      1.083078     -0.111248
+  H       0.939440      0.099607      0.302249
+  H       1.088115      1.116221     -1.139497
+  H       1.257358      1.832587      0.479222
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 2
+  H      -1.421164      0.321631      0.609044
+  S      -1.064591      1.390522     -0.115590
+  C       0.733375      1.080291     -0.115358
+  H       0.939680      0.090768      0.283217
+  H       1.101737      1.133153     -1.137734
+  H       1.242713      1.823586      0.494971
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 3
+  H      -1.416938      0.347882      0.646137
+  S      -1.067395      1.368729     -0.148159
+  C       0.732668      1.076651     -0.118865
+  H       0.942539      0.081800      0.264623
+  H       1.113146      1.150802     -1.135424
+  H       1.227730      1.814086      0.510239
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 4
+  H      -1.413225      0.376817      0.681378
+  S      -1.069598      1.344985     -0.179166
+  C       0.731934      1.072355     -0.122048
+  H       0.947523      0.072708      0.245913
+  H       1.123280      1.168721     -1.132599
+  H       1.211835      1.804364      0.525071
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 5
+  H      -1.409968      0.408360      0.714658
+  S      -1.071265      1.319385     -0.208450
+  C       0.731175      1.067404     -0.124971
+  H       0.954580      0.063571      0.227109
+  H       1.132148      1.186920     -1.129288
+  H       1.195080      1.794311      0.539493
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 6
+  H      -1.407285      0.442454      0.745602
+  S      -1.072651      1.292167     -0.236060
+  C       0.730282      1.061560     -0.127427
+  H       0.964236      0.054376      0.208439
+  H       1.139186      1.205585     -1.125337
+  H       1.177982      1.783808      0.553333
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 7
+  H      -1.405110      0.478619      0.774415
+  S      -1.073442      1.263340     -0.261260
+  C       0.729565      1.055465     -0.129756
+  H       0.975306      0.045411      0.189305
+  H       1.145457      1.223990     -1.121023
+  H       1.159975      1.773124      0.566869
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 8
+  H      -1.403540      0.516807      0.800886
+  S      -1.073893      1.233074     -0.284270
+  C       0.728916      1.048894     -0.131840
+  H       0.988217      0.036732      0.170042
+  H       1.150424      1.242454     -1.116267
+  H       1.141626      1.761989      0.579999
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 9
+  H      -1.402512      0.556884      0.824901
+  S      -1.074099      1.201445     -0.304960
+  C       0.728348      1.041903     -0.133726
+  H       1.002822      0.028458      0.150672
+  H       1.154121      1.260947     -1.111096
+  H       1.123071      1.750312      0.592759
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 10
+  H      -1.402116      0.598654      0.846402
+  S      -1.074104      1.168546     -0.323234
+  C       0.727906      1.034558     -0.135447
+  H       1.018975      0.020709      0.131210
+  H       1.156565      1.279444     -1.105545
+  H       1.104524      1.738039      0.605164
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 11
+  H      -1.402319      0.641945      0.865350
+  S      -1.073966      1.134447     -0.339034
+  C       0.727619      1.026930     -0.137060
+  H       1.036459      0.013590      0.111690
+  H       1.157814      1.297942     -1.099646
+  H       1.086143      1.725095      0.617251
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 12
+  H      -1.402827      0.686628      0.881672
+  S      -1.073808      1.099196     -0.352328
+  C       0.727469      1.019098     -0.138634
+  H       1.054955      0.007192      0.092158
+  H       1.157976      1.316442     -1.093399
+  H       1.067986      1.711396      0.629080
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 13
+  H      -1.403576      0.732518      0.895244
+  S      -1.073681      1.062848     -0.363024
+  C       0.727472      1.011164     -0.140174
+  H       1.074216      0.001594      0.072638
+  H       1.157067      1.334910     -1.086826
+  H       1.050251      1.696917      0.640692
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 14
+  H      -1.404624      0.779403      0.905952
+  S      -1.073563      1.025492     -0.371034
+  C       0.727652      1.003226     -0.141664
+  H       1.094043     -0.003141      0.053147
+  H       1.155059      1.353309     -1.079964
+  H       1.033183      1.681662      0.652112
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 15
+  H      -1.405805      0.827273      0.913773
+  S      -1.073479      0.987060     -0.376337
+  C       0.728002      0.995329     -0.143257
+  H       1.114196     -0.006967      0.033806
+  H       1.152023      1.371811     -1.072852
+  H       1.016813      1.665444      0.663417
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 16
+  H      -1.407051      0.875910      0.918553
+  S      -1.073403      0.947608     -0.378842
+  C       0.728508      0.987620     -0.144943
+  H       1.134369     -0.009850      0.014646
+  H       1.147961      1.390389     -1.065517
+  H       1.001366      1.648273      0.674653
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 17
+  H      -1.408508      0.925042      0.920104
+  S      -1.073199      0.907274     -0.378414
+  C       0.729167      0.980223     -0.146656
+  H       1.154337     -0.011782     -0.004321
+  H       1.142766      1.408996     -1.058015
+  H       0.987187      1.630198      0.685851
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 18
+  H      -1.410291      0.974423      0.918246
+  S      -1.072711      0.866233     -0.374930
+  C       0.729960      0.973215     -0.148347
+  H       1.173913     -0.012789     -0.023066
+  H       1.136312      1.427624     -1.050384
+  H       0.974568      1.611244      0.697032
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 19
+  H      -1.412384      1.023789      0.912853
+  S      -1.071821      0.824666     -0.368335
+  C       0.730825      0.966689     -0.149989
+  H       1.192845     -0.012912     -0.041559
+  H       1.128564      1.446269     -1.042649
+  H       0.963720      1.591450      0.708229
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 20
+  H      -1.415699      1.072537      0.903716
+  S      -1.069970      0.783129     -0.358376
+  C       0.731876      0.960733     -0.151274
+  H       1.210901     -0.012259     -0.059893
+  H       1.119217      1.464741     -1.035002
+  H       0.955424      1.571069      0.719378
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 21
+  H      -1.418512      1.120649      0.890939
+  S      -1.067958      0.741582     -0.345578
+  C       0.732691      0.955349     -0.152409
+  H       1.227929     -0.010853     -0.077995
+  H       1.108680      1.483049     -1.026999
+  H       0.948920      1.550174      0.730592
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 22
+  H      -1.421841      1.167551      0.874364
+  S      -1.065158      0.700639     -0.329672
+  C       0.733422      0.950581     -0.153115
+  H       1.243737     -0.008835     -0.095973
+  H       1.096676      1.501050     -1.018858
+  H       0.944914      1.528963      0.741805
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 23
+  H      -1.425552      1.212798      0.854089
+  S      -1.061577      0.660795     -0.310921
+  C       0.733975      0.946395     -0.153196
+  H       1.258215     -0.006312     -0.113921
+  H       1.083209      1.518540     -1.010489
+  H       0.943480      1.507735      0.752987
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 24
+  H      -1.429836      1.255978      0.830329
+  S      -1.057178      0.622516     -0.289565
+  C       0.734368      0.942760     -0.152496
+  H       1.271274     -0.003413     -0.131958
+  H       1.068367      1.535345     -1.001848
+  H       0.944755      1.486764      0.764088
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 25
+  H      -1.434828      1.296703      0.803327
+  S      -1.051994      0.586266     -0.265884
+  C       0.734643      0.939615     -0.150858
+  H       1.282853     -0.000261     -0.150207
+  H       1.052260      1.551292     -0.992880
+  H       0.948815      1.466335      0.775052
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 26
+  H      -1.440573      1.334703      0.773379
+  S      -1.046095      0.552384     -0.240186
+  C       0.734839      0.936890     -0.148201
+  H       1.292908      0.003045     -0.168747
+  H       1.035051      1.566283     -0.983516
+  H       0.955620      1.446646      0.785821
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 27
+  H      -1.447038      1.369844      0.740810
+  S      -1.039586      0.521038     -0.212755
+  C       0.734987      0.934522     -0.144538
+  H       1.301402      0.006437     -0.187599
+  H       1.016969      1.580320     -0.973685
+  H       0.965017      1.427788      0.796318
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 28
+  H      -1.453883      1.402055      0.705887
+  S      -1.032713      0.492345     -0.183885
+  C       0.735097      0.932398     -0.139884
+  H       1.308401      0.009899     -0.206770
+  H       0.998166      1.593422     -0.963279
+  H       0.976682      1.409832      0.806481
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 29
+  H      -1.460955      1.431268      0.668914
+  S      -1.025661      0.466416     -0.153849
+  C       0.735226      0.930430     -0.134255
+  H       1.313962      0.013412     -0.226280
+  H       0.978817      1.605579     -0.952235
+  H       0.990361      1.392845      0.816256
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 30
+  H      -1.468268      1.457516      0.630197
+  S      -1.018525      0.443253     -0.122851
+  C       0.735447      0.928568     -0.127746
+  H       1.318113      0.016976     -0.246102
+  H       0.959129      1.616850     -0.940519
+  H       1.005855      1.376786      0.825571
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 31
+  H      -1.475922      1.480883      0.589951
+  S      -1.011396      0.422795     -0.090958
+  C       0.735832      0.926788     -0.120532
+  H       1.320902      0.020573     -0.266137
+  H       0.939309      1.627413     -0.928127
+  H       1.023026      1.361498      0.834353
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 32
+  H      -1.483710      1.501366      0.548392
+  S      -1.004428      0.405041     -0.058333
+  C       0.736401      0.925044     -0.112687
+  H       1.322379      0.024253     -0.286347
+  H       0.919500      1.637302     -0.915019
+  H       1.041609      1.346944      0.842545
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 33
+  H      -1.491389      1.519042      0.505699
+  S      -0.997767      0.389913     -0.025069
+  C       0.737152      0.923288     -0.104343
+  H       1.322647      0.028068     -0.306658
+  H       0.899808      1.646623     -0.901183
+  H       1.061298      1.333017      0.850104
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 34
+  H      -1.498923      1.533964      0.462062
+  S      -0.991478      0.377365      0.008761
+  C       0.738106      0.921503     -0.095626
+  H       1.321766      0.032047     -0.327002
+  H       0.880384      1.655464     -0.886630
+  H       1.081895      1.319607      0.856985
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 35
+  H      -1.506298      1.546170      0.417592
+  S      -0.985588      0.367335      0.043186
+  C       0.739266      0.919707     -0.086719
+  H       1.319760      0.036197     -0.347261
+  H       0.861386      1.664002     -0.871374
+  H       1.103224      1.306540      0.863127
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 36
+  H      -1.513372      1.555659      0.372380
+  S      -0.980144      0.359789      0.078243
+  C       0.740602      0.917911     -0.077793
+  H       1.316675      0.040528     -0.367330
+  H       0.842931      1.672405     -0.855428
+  H       1.125058      1.293659      0.868478
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 37
+  H      -1.520070      1.562430      0.326608
+  S      -0.975169      0.354715      0.113863
+  C       0.742090      0.916117     -0.068949
+  H       1.312556      0.045045     -0.387167
+  H       0.825164      1.680740     -0.838826
+  H       1.147180      1.280904      0.873021
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 38
+  H      -1.526380      1.566441      0.280417
+  S      -0.970666      0.352127      0.150024
+  C       0.743708      0.914355     -0.060310
+  H       1.307423      0.049724     -0.406710
+  H       0.808245      1.689125     -0.821608
+  H       1.169420      1.268177      0.876736
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 39
+  H      -1.532371      1.567598      0.233894
+  S      -0.966582      0.352082      0.186775
+  C       0.745430      0.912698     -0.052046
+  H       1.301256      0.054495     -0.425846
+  H       0.792362      1.697769     -0.803812
+  H       1.191656      1.255309      0.879585
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 40
+  H      -1.538109      1.565766      0.187194
+  S      -0.962833      0.354665      0.224060
+  C       0.747211      0.911226     -0.044264
+  H       1.293997      0.059289     -0.444505
+  H       0.777736      1.706812     -0.785502
+  H       1.213749      1.242192      0.881567
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 41
+  H      -1.543683      1.560816      0.140510
+  S      -0.959329      0.359964      0.261784
+  C       0.748999      0.910018     -0.037051
+  H       1.285594      0.064043     -0.462634
+  H       0.764614      1.716369     -0.766756
+  H       1.235554      1.228739      0.882698
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 42
+  H      -1.549255      1.552603      0.094054
+  S      -0.955959      0.368077      0.299809
+  C       0.750753      0.909173     -0.030482
+  H       1.275979      0.068689     -0.480174
+  H       0.753278      1.726557     -0.747664
+  H       1.256954      1.214851      0.883007
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 43
+  H      -1.554523      1.541147      0.047984
+  S      -0.952784      0.379056      0.338199
+  C       0.752340      0.908526     -0.024810
+  H       1.265478      0.073146     -0.497204
+  H       0.743756      1.737511     -0.728091
+  H       1.277483      1.200564      0.882472
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 44
+  H      -1.559858      1.525957      0.002543
+  S      -0.949477      0.393025      0.376429
+  C       0.753717      0.908677     -0.019762
+  H       1.253339      0.077470     -0.513378
+  H       0.736496      1.749362     -0.708511
+  H       1.297532      1.185458      0.881228
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 45
+  H      -1.565067      1.507170     -0.041957
+  S      -0.946085      0.409956      0.414341
+  C       0.754818      0.909443     -0.015457
+  H       1.239885      0.081644     -0.528840
+  H       0.731528      1.762064     -0.688870
+  H       1.316673      1.169674      0.879332
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 46
+  H      -1.570309      1.484681     -0.085212
+  S      -0.942496      0.429903      0.451653
+  C       0.755603      0.910930     -0.011918
+  H       1.225086      0.085679     -0.543553
+  H       0.729114      1.775656     -0.669301
+  H       1.334754      1.153102      0.876881
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 47
+  H      -1.575414      1.458503     -0.126815
+  S      -0.938720      0.452791      0.487926
+  C       0.756028      0.913175     -0.009050
+  H       1.208921      0.089677     -0.557567
+  H       0.729342      1.789999     -0.649969
+  H       1.351593      1.135805      0.874024
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 48
+  H      -1.580190      1.428790     -0.166400
+  S      -0.934798      0.478420      0.522723
+  C       0.756073      0.916192     -0.006715
+  H       1.191403      0.093772     -0.570932
+  H       0.732183      1.804904     -0.631031
+  H       1.367079      1.117872      0.870905
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 49
+  H      -1.584703      1.395719     -0.203689
+  S      -0.930744      0.506580      0.555712
+  C       0.755777      0.920033     -0.004838
+  H       1.172589      0.098087     -0.583653
+  H       0.737676      1.820243     -0.612620
+  H       1.381154      1.099287      0.867638
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 50
+  H      -1.588917      1.359588     -0.238312
+  S      -0.926637      0.536973      0.586450
+  C       0.755216      0.924655     -0.003262
+  H       1.152562      0.102770     -0.595827
+  H       0.745779      1.835750     -0.594884
+  H       1.393748      1.080214      0.864385
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 51
+  H      -1.592595      1.320767     -0.270031
+  S      -0.922641      0.569209      0.614611
+  C       0.754453      0.930022     -0.001819
+  H       1.131379      0.107988     -0.607514
+  H       0.756269      1.851172     -0.577941
+  H       1.404886      1.060792      0.861245
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 52
+  H      -1.595658      1.279681     -0.298694
+  S      -0.918902      0.602894      0.639967
+  C       0.753589      0.936059     -0.000382
+  H       1.109174      0.113880     -0.618781
+  H       0.768921      1.866275     -0.561860
+  H       1.414626      1.041161      0.858299
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 53
+  H      -1.598062      1.236802     -0.324222
+  S      -0.915557      0.637628      0.662365
+  C       0.752734      0.942654      0.001180
+  H       1.086102      0.120568     -0.629698
+  H       0.783462      1.880820     -0.546681
+  H       1.423071      1.021478      0.855605
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 54
+  H      -1.599687      1.192403     -0.346592
+  S      -0.912762      0.673200      0.681798
+  C       0.751922      0.949747      0.002846
+  H       1.062362      0.128112     -0.640266
+  H       0.799662      1.894759     -0.532358
+  H       1.430253      1.001729      0.853121
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 55
+  H      -1.600561      1.146822     -0.365834
+  S      -0.910623      0.709390      0.698299
+  C       0.751216      0.957231      0.004612
+  H       1.038197      0.136547     -0.650521
+  H       0.817289      1.908004     -0.518826
+  H       1.436232      0.981956      0.850819
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 56
+  H      -1.600602      1.100500     -0.382033
+  S      -0.909258      0.745900      0.711934
+  C       0.750684      0.964942      0.006541
+  H       1.013797      0.145917     -0.660543
+  H       0.835999      1.920384     -0.506039
+  H       1.441130      0.962307      0.848690
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 57
+  H      -1.599851      1.053633     -0.395216
+  S      -0.908719      0.782664      0.722776
+  C       0.750326      0.972790      0.008549
+  H       0.989424      0.156193     -0.670360
+  H       0.855625      1.931917     -0.493884
+  H       1.444945      0.942753      0.846685
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 58
+  H      -1.598464      1.006359     -0.405375
+  S      -0.908991      0.819670      0.730865
+  C       0.750133      0.980710      0.010527
+  H       0.965380      0.167339     -0.679993
+  H       0.876066      1.942632     -0.482223
+  H       1.447626      0.923240      0.844750
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 59
+  H      -1.596588      0.958863     -0.412481
+  S      -0.910068      0.856847      0.736206
+  C       0.750108      0.988630      0.012407
+  H       0.941940      0.179310     -0.689493
+  H       0.897208      1.952541     -0.470964
+  H       1.449149      0.903759      0.842875
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 60
+  H      -1.594185      0.911396     -0.416597
+  S      -0.911937      0.894088      0.738868
+  C       0.750230      0.996454      0.014177
+  H       0.919298      0.192053     -0.698908
+  H       0.918793      1.961613     -0.460013
+  H       1.449552      0.884345      0.841023
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 61
+  H      -1.591259      0.864127     -0.417812
+  S      -0.914556      0.931339      0.738946
+  C       0.750464      1.004131      0.015793
+  H       0.897624      0.205481     -0.708264
+  H       0.940620      1.969889     -0.449244
+  H       1.448857      0.864983      0.839132
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 62
+  H      -1.587241      0.817297     -0.416093
+  S      -0.918069      0.968506      0.736768
+  C       0.750711      1.011447      0.017055
+  H       0.877063      0.219484     -0.717796
+  H       0.962534      1.977389     -0.438579
+  H       1.446753      0.845827      0.837195
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 63
+  H      -1.583804      0.770818     -0.411225
+  S      -0.921895      1.005571      0.731529
+  C       0.751127      1.018709      0.018073
+  H       0.858102      0.234043     -0.727298
+  H       0.984659      1.984233     -0.427840
+  H       1.443561      0.826577      0.835310
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 64
+  H      -1.580128      0.725074     -0.403266
+  S      -0.926215      1.042368      0.723673
+  C       0.751549      1.025646      0.018720
+  H       0.840842      0.249029     -0.737021
+  H       1.006671      1.990378     -0.416985
+  H       1.439031      0.807455      0.833429
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 65
+  H      -1.576129      0.680237     -0.392285
+  S      -0.930940      1.078776      0.713256
+  C       0.751933      1.032243      0.018965
+  H       0.825309      0.264323     -0.747002
+  H       1.028398      1.995890     -0.405907
+  H       1.433180      0.788481      0.831523
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 66
+  H      -1.571896      0.636440     -0.378311
+  S      -0.935946      1.114675      0.700323
+  C       0.752250      1.038490      0.018749
+  H       0.811613      0.279820     -0.757299
+  H       1.049752      2.000846     -0.394495
+  H       1.425976      0.769678      0.829583
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 67
+  H      -1.567564      0.593896     -0.361298
+  S      -0.941090      1.149883      0.684859
+  C       0.752481      1.044337      0.018013
+  H       0.799940      0.295424     -0.768017
+  H       1.070613      2.005298     -0.382648
+  H       1.417370      0.751113      0.827642
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 68
+  H      -1.562944      0.552896     -0.341346
+  S      -0.946318      1.184171      0.666967
+  C       0.752573      1.049713      0.016786
+  H       0.790269      0.311063     -0.779222
+  H       1.090757      2.009234     -0.370346
+  H       1.407413      0.732872      0.825711
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 69
+  H      -1.557922      0.513618     -0.318571
+  S      -0.951580      1.217379      0.646769
+  C       0.752486      1.054610      0.015061
+  H       0.782556      0.326659     -0.790927
+  H       1.110063      2.012707     -0.357537
+  H       1.396148      0.714978      0.823754
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 70
+  H      -1.552511      0.476171     -0.293070
+  S      -0.956792      1.249363      0.624377
+  C       0.752195      1.059047      0.012804
+  H       0.776796      0.342152     -0.803140
+  H       1.128485      2.015783     -0.344154
+  H       1.383578      0.697436      0.821733
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 71
+  H      -1.546850      0.440771     -0.264956
+  S      -0.961871      1.279900      0.599907
+  C       0.751714      1.062965      0.010020
+  H       0.773072      0.357516     -0.815915
+  H       1.145900      2.018469     -0.330176
+  H       1.369785      0.680329      0.819671
+>
+6
+Coordinates from ORCA-job ch3sh-scan-opt-r2scan-d4-def2-tzvpp Relaxed Surface Scan Step 72
+  H      -1.540968      0.407611     -0.234344
+  S      -0.966771      1.308793      0.573486
+  C       0.751035      1.066343      0.006710
+  H       0.771414      0.372728     -0.829259
+  H       1.162200      2.020787     -0.315592
+  H       1.354841      0.663688      0.817548

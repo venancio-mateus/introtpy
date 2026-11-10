@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# ./introtpy molecule.inp
+# or, after adding this folder to PATH:  introtpy molecule.inp
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}"
+if command -v python3 >/dev/null 2>&1; then PY=python3; else PY=python; fi
+if [[ $# -lt 1 ]]; then
+  echo "Usage: introtpy <file.inp>"
+  echo "       $ROOT/introtpy /caminho/molecule.inp"
+  exit 1
+fi
+exec "$PY" "$ROOT/run_introtpy.py" "$@"

@@ -1,0 +1,8 @@
+ORCA_OUT: 1-2-dce-scan-opt-r2scan-d4-def2-tzvpp.out
+XYZ_FILE: 1-2-dce-scan-opt-r2scan-d4-def2-tzvpp.allxyz          # ou o nome do seu arquivo de trajetória
+AXIS: 0,1
+TOP: 2,3,4,5                           # ajuste conforme sua numeração
+SIGMA: 1
+T_SINGLE: 298.15
+T_RANGE: 300,1500,50
+FREQ_OUT: 1-2-dce-gauche-opt-freq-r2scan-d4-def2-tzvpp.out   # opcional, para a correção RR-HO
