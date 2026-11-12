@@ -1,0 +1,35 @@
+# IntRotPy
+
+**Variable-Inertia Quantum Pendulum for Torsional Partition Functions from ORCA Relaxed Scans**
+
+IntRotPy is an open-source post-processing tool that computes the torsional partition function ($Q_{\mathrm{tor}}$) from ORCA relaxed dihedral scans by solving a one-dimensional quantum pendulum problem with an angle-dependent kinetic energy operator.
+
+Along a relaxed scan the reduced moment of inertia varies continuously, $I = I(\theta)$. Consequently $I(\theta)^{-1}$ and the angular momentum operator no longer commute. IntRotPy constructs a Jordan-symmetrized Hermitian kinetic-energy operator, diagonalizes the resulting Hamiltonian on a periodic grid, and returns the exact numerical eigenvalues from which $Q_{\mathrm{tor}}$ is obtained.
+
+Two formalisms for the reduced inertia are implemented:
+
+- **Pitzer–Slanina** (internal-rotation tensor)
+- **Eckart–Wong** (Eckart-frame formulation that minimizes kinematic coupling with overall rotation)
+
+The harmonic torsional contribution is systematically replaced by the numerical quantum-pendulum result, improving conformational free energies and Boltzmann populations.
+
+## Key Features
+
+- Reads ORCA scan and frequency output files directly
+- Fits the relaxed potential $V(\theta)$
+- Computes $I(\theta)$ via Pitzer–Slanina and Eckart–Wong methods
+- Builds and diagonalizes the Jordan-symmetrized Hamiltonian
+- Returns torsional eigenvalues, $Q_{\mathrm{tor}}$, and corrected thermodynamic quantities
+- Open-source and designed for reproducibility
+
+## Requirements
+
+- Python ≥ 3.8
+- NumPy
+- SciPy
+- (Optional) Matplotlib for plotting
+
+Install the dependencies with:
+
+```bash
+pip install numpy scipy matplotlib
