@@ -1,10 +1,16 @@
-ORCA_OUT: h2o2-scan-opt-r2scan-d4-def2-tzvpp.out
-FREQ_OUT: h2o2-opt-freq-r2scan-d4-def2-tzvpp.out
-HESS_FILE: h2o2-opt-freq-r2scan-d4-def2-tzvpp.hess
-XYZ_FILE: h2o2-scan-opt-r2scan-d4-def2-tzvpp.allxyz
+# IntRotPy input — hydrogen peroxide example
+# Use a lightweight two-column PES (recommended for the repository).
+# To use an ORCA scan instead, replace POTENTIAL with:
+#   ORCA_OUT: h2o2-scan.out
+
+POTENTIAL: h2o2_pes.dat
+XYZ_FILE:  h2o2.allxyz
+FREQ_OUT:  h2o2-freq.out
+HESS_FILE: h2o2-freq.hess
 AXIS: 1,2
 TOP: 0
 DIHEDRAL: 0,1,2,3
-UNIT: hartree
+UNIT: kcal
+SIGMA: 1
 T_SINGLE: 298.15
 T_RANGE: 300, 2000, 50

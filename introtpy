@@ -7,7 +7,7 @@ export PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}"
 if command -v python3 >/dev/null 2>&1; then PY=python3; else PY=python; fi
 if [[ $# -lt 1 ]]; then
   echo "Usage: introtpy <file.inp>"
-  echo "       $ROOT/introtpy /caminho/molecule.inp"
+  echo "       $ROOT/introtpy /path/to/molecule.inp"
   exit 1
 fi
 exec "$PY" "$ROOT/run_introtpy.py" "$@"

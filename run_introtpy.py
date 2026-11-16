@@ -80,6 +80,73 @@ def extract_orca_scan(orca_out, dest):
     return angles, rel
 
 
+def read_generic_pes(pes_path, dest, unit="hartree"):
+    """Read a two-column PES file (angle_deg  energy) in any common unit.
+
+    Supported UNIT values (case-insensitive):
+        hartree, au, Eh
+        kcal, kcal/mol
+        kJ, kJ/mol
+        cm-1, cm^-1, wavenumber
+        eV
+
+    Energies are shifted to the minimum (= 0) and written to *dest*
+    in the unit expected by the solver.
+    """
+    unit = unit.lower().replace(" ", "").replace("/mol", "")
+    conv = {
+        "hartree": 1.0, "au": 1.0, "eh": 1.0,
+        "kcal": 1.0,
+        "kj": 1.0 / 4.184,          # → kcal
+        "cm-1": 1.0 / 349.755011,   # → kcal
+        "cm^-1": 1.0 / 349.755011,
+        "wavenumber": 1.0 / 349.755011,
+        "ev": 23.0605478306,        # → kcal
+    }
+    if unit in ("hartree", "au", "eh"):
+        solver_unit = "hartree"
+        to_solver = 1.0
+    else:
+        solver_unit = "kcal"
+        factor = conv.get(unit)
+        if factor is None:
+            print(f"[ERROR] unsupported UNIT '{unit}'. "
+                  "Use: hartree, kcal, kJ, cm-1, eV")
+            sys.exit(1)
+        to_solver = factor
+
+    angles, energies = [], []
+    for line in Path(pes_path).read_text(errors="ignore").splitlines():
+        line = line.split("#")[0].strip()
+        if not line:
+            continue
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        try:
+            a = float(parts[0])
+            e = float(parts[1])
+        except ValueError:
+            continue
+        angles.append(a)
+        energies.append(e)
+
+    if len(energies) < 3:
+        print(f"[ERROR] PES file has fewer than 3 valid points: {pes_path}")
+        sys.exit(1)
+
+    energies = [e * to_solver for e in energies]
+    mn = min(energies)
+    rel = [e - mn for e in energies]
+
+    Path(dest).write_text(
+        "".join(f"{a:.6f} {e:.12f}\n" for a, e in zip(angles, rel))
+    )
+    print(f"[PROCESS] {len(angles)} points from generic PES {Path(pes_path).name} "
+          f"(UNIT → {solver_unit})")
+    return angles, rel, solver_unit
+
+
 def read_freqs(path):
     freqs, on = [], False
     for line in Path(path).read_text(errors="ignore").splitlines():
@@ -451,18 +518,38 @@ def main():
             sys.exit(1)
         return found
 
-    scan = need("ORCA_OUT")
     xyz = need("XYZ_FILE")
     report = here / f"{inp.stem}.out"
     pot = here / f".{inp.stem}.potential.tmp"
-    print("[INPUT] scan ", scan)
-    print("[INPUT] geom ", xyz)
-    angles, rel_e = extract_orca_scan(scan, pot)
+
+    # PES source: generic two-column file OR ORCA scan .out
+    # Keywords accepted for a generic PES (first match wins):
+    #   POTENTIAL, PES, V_FILE, ENERGY_FILE
+    pes_key = next(
+        (k for k in ("POTENTIAL", "PES", "V_FILE", "ENERGY_FILE") if p.get(k)),
+        None,
+    )
+    user_unit = p.get("UNIT", "hartree").lower()
+
+    if pes_key:
+        pes_path = need(pes_key)
+        print("[INPUT] PES  ", pes_path)
+        print("[INPUT] geom ", xyz)
+        angles, rel_e, solver_unit = read_generic_pes(pes_path, pot, unit=user_unit)
+        source_label = pes_path.name
+    else:
+        # Backward-compatible path: extract from ORCA relaxed-scan .out
+        scan = need("ORCA_OUT")
+        print("[INPUT] scan ", scan)
+        print("[INPUT] geom ", xyz)
+        angles, rel_e = extract_orca_scan(scan, pot)
+        solver_unit = user_unit
+        source_label = scan.name
 
     job = InternalRotationSolverFinal(
         potential_path=pot,
         sigma=int(p.get("SIGMA", "1")),
-        input_unit=p.get("UNIT", "hartree").lower(),
+        input_unit=solver_unit,
     )
     conf = p.get("CONFORMER") or p.get("WELL")
     job.solve(
@@ -478,12 +565,12 @@ def main():
     job.generate_final_report(report)
 
     extra = []
-    extra.append("\n[6. EXTRACTED POTENTIAL — relative E in input units]\n")
+    extra.append("\n[6. EXTRACTED POTENTIAL — relative E in solver units (%s)]\n" % solver_unit)
     extra.append(f"{'angle (deg)':>14}  {'E_rel':>16}\n")
     extra.append("-" * 34 + "\n")
     for a, e in zip(angles, rel_e):
         extra.append(f"{a:14.6f}  {e:16.12f}\n")
-    extra.append(f"\n{len(angles)} points from {scan.name}\n")
+    extra.append(f"\n{len(angles)} points from {source_label}\n")
 
     freq_name = p.get("FREQ_OUT")
     freq = locate(freq_name, here, cwd) if freq_name else None
